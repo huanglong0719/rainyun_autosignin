@@ -9,7 +9,7 @@ echo "------------------------"
 read -p "请输入你的选择（1或2）: " choice
 
 if [ "$choice" == "1" ]; then
-    read -p "请输入你的雨云API密钥: " ryapikey
+    read -p "请输入你的雨云API密钥:YF781duXKhl5lu6Dln9lqxBzPjHMF6uQ " ryapikey
 
     response=$(curl -s -H "x-api-key: $ryapikey" https://api.v2.rainyun.com/user/)
 
